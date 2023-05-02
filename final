@@ -1,0 +1,94 @@
+body {
+	background-color: #f1f1f1;
+	color: #333;
+	font-family: Arial, sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 18px;
+}
+
+h1 {
+	margin: 0;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Personal Website</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>My Personal Website</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section>
+			<h2>Welcome</h2>
+			<p>This is my personal website. Here, you will find information about me and my interests.</p>
+			<p>Check out my <a href="https://github.com/your-username">GitHub</a> for more.</p>
+			<ul>
+				<li>Item 1</li>
+				<li>Item 2</li>
+				<li>Item 3</li>
+			</ul>
+			<table>
+				<thead>
+					<tr>
+						<th>Column 1</th>
+						<th>Column 2</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Row 1, Column 1</td>
+						<td>Row 1, Column 2</td>
+					</tr>
+					<tr>
+						<td>Row 2, Column 1</td>
+						<td>Row 2, Column 2</td>
+					</tr>
+				</tbody>
+			</table>
+			<code>
+				// This is a block of code
+				function sayHello(name) {
+					console.log(`Hello, ${user}!`);
+				}
+
+				sayHello("World");
+			</code>
+		</section>
+		<section>
+			<h2>About Me</h2>
+			<p>My name is Remington and I am a student at the University of Missouri. In my free time I like to workout and read for the most part.</p>
+			<p>Here is an image hosted in my GitHub repo:</p>
+			<img src="images/my-image.jpg" alt="RemingtonWebb">
+		</section>
+	</main>
+	<footer>
+		<p>Copyright © 2023 My Personal Website.
+		<a href="https://github.com/remingtonwebb/remingtonwebb.github.io/new/main"
+    </footer>
+</body>
+</html>
